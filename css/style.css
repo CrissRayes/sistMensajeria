@@ -66,6 +66,10 @@ i:not(:last-child) {
   padding: 1.6rem 3.2rem;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
 .contact {
   padding: 2rem;
   border-bottom: 1px solid #bbbbbb;
@@ -79,4 +83,25 @@ i:not(:last-child) {
   background-color: #eee;
   flex: 1;
   padding: 1.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+  text-align: center;
+}
+.card__img {
+  width: 200px;
+}
+.card h1 {
+  margin: 1rem 0;
+}
+.card p {
+  font-size: 1.1rem;
 }
