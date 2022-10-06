@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.sidebar {
+  background-color: brown;
+
+  flex: 0 0 18%;
+}
+.networking {
+  background-color: blue;
+
+  flex: 1;
+}
+
+.avatar {
+  width: 40px;
+  border-radius: 50px;
+}
+
+.side-nav {
+  list-style: none;
+}
+
+.side-nav-link {
+  text-decoration: none;
+  display: block;
+  padding: 1.5rem 3rem;
+}
